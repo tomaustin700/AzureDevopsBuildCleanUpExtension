@@ -4,12 +4,12 @@
     "name": "CleanupSourcesDirectory",
     "friendlyName": "Cleanup Sources Directory",
     "description": "Removes all files and folders from the Sources directory.",
-    "helpMarkDown": "[More Information](https://github.com/tomaustin700/AzureDevopsCleanSourcesExtension/blob/main/README.md)",
+    "helpMarkDown": "[More Information](https://github.com/tomaustin700/AzureDevopsCleanSourcesExtension/blob/main/README.MD)",
     "category": "Utility",
     "author": "TomAustin",
     "version": {
         "Major": 0,
-        "Minor": 6,
+        "Minor": 8,
         "Patch": 0
     },
     "minimumAgentVersion": "1.83.0",

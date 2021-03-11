@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "cleansourceext",
     "name": "Clean Sources Directory",
-    "version": "0.6.0",
+    "version": "0.8.0",
     "publisher": "TomAustin",
     "repository": {
         "type": "git",
@@ -37,7 +37,7 @@
         "Azure Pipelines"
     ],
     "icons": {
-        "default": "images/extension-icon.png"
+        "default": "images/icon.png"
     },
     "files": [
         {
@@ -55,5 +55,8 @@
                 "name": "buildAndReleaseTask"
             }
         }
+    ],
+    "galleryFlags": [
+        "Public"
     ]
 }
