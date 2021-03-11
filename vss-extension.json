@@ -2,19 +2,42 @@
     "manifestVersion": 1,
     "id": "cleansourceext",
     "name": "Clean Sources Directory",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "publisher": "TomAustin",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tomaustin700/AzureDevopsCleanSourcesExtension"
+    },
+    "content": {
+        "details": {
+            "path": "README.MD"
+        },
+        "license": {
+            "path": "LICENSE.md"
+        }
+    },
+    "links": {
+        "support": {
+            "uri": "https://github.com/tomaustin700/AzureDevopsCleanSourcesExtension/issues"
+        },
+        "license": {
+            "uri": "https://github.com/tomaustin700/AzureDevopsCleanSourcesExtension/blob/main/LICENSE.md"
+        }
+    },
+    "tags": [
+        "Azure Pipelines"
+    ],
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
-    ],    
-    "description": "Tools for building/releasing with Fabrikam. Includes one build/release task.",
+    ],
+    "description": "Removes all files and folders from the Sources directory.",
     "categories": [
         "Azure Pipelines"
     ],
     "icons": {
-        "default": "images/extension-icon.png"        
+        "default": "images/extension-icon.png"
     },
     "files": [
         {
