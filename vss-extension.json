@@ -1,12 +1,12 @@
 {
     "manifestVersion": 1,
-    "id": "cleansourceext",
-    "name": "Clean Sources Directory",
-    "version": "0.8.0",
+    "id": "buildcleanup",
+    "name": "Build Cleanup",
+    "version": "0.0.3",
     "publisher": "TomAustin",
     "repository": {
         "type": "git",
-        "url": "https://github.com/tomaustin700/AzureDevopsCleanSourcesExtension"
+        "url": "https://github.com/tomaustin700/AzureDevopsBuildCleanUpExtension"
     },
     "content": {
         "details": {
@@ -18,10 +18,10 @@
     },
     "links": {
         "support": {
-            "uri": "https://github.com/tomaustin700/AzureDevopsCleanSourcesExtension/issues"
+            "uri": "https://github.com/tomaustin700/AzureDevopsBuildCleanUpExtension/issues"
         },
         "license": {
-            "uri": "https://github.com/tomaustin700/AzureDevopsCleanSourcesExtension/blob/main/LICENSE.md"
+            "uri": "https://github.com/tomaustin700/AzureDevopsBuildCleanUpExtension/blob/main/LICENSE.md"
         }
     },
     "tags": [
@@ -32,7 +32,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Removes all files and folders from the Sources directory.",
+    "description": "Removes all files and folders left behind after a build/pipeline has ran",
     "categories": [
         "Azure Pipelines"
     ],
@@ -46,7 +46,7 @@
     ],
     "contributions": [
         {
-            "id": "cleansource-ta",
+            "id": "buildcleanup",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
