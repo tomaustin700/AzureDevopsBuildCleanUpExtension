@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "buildcleanup",
     "name": "Build Cleanup",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "publisher": "TomAustin",
     "repository": {
         "type": "git",
