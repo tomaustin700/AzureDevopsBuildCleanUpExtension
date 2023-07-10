@@ -1,6 +1,6 @@
 {
   "name": "buildandreleasetask",
-  "version": "1.0.0",
+  "version": "2.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "azure-pipelines-task-lib": "^3.1.0"
+    "azure-pipelines-task-lib": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "^10.17.55",
