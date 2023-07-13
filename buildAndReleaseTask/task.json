@@ -9,11 +9,25 @@
   "author": "TomAustin",
   "version": {
     "Major": 2,
-    "Minor": 0,
-    "Patch": 6
+    "Minor": 1,
+    "Patch": 5
   },
   "minimumAgentVersion": "1.83.0",
-  "inputs": [],
+  "inputs": [
+    {
+      "name": "ExcludeFiles",
+      "type": "multiLine",
+      "label": "Files To Exclude from Cleanup",
+      "defaultValue": "",
+      "required": true,
+      "helpMarkDown": "Files to exclude from the cleanup. One file per line. ",
+      "properties": {
+        "resizable": true,
+        "rows": "10",
+        "maxLength": "5000"
+      }
+    }
+  ],
   "instanceNameFormat": "Build Cleanup",
   "postjobexecution": {
     "PowerShell3": {
